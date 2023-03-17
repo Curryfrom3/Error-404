@@ -150,3 +150,26 @@ We will merge only during stand-ups
 ### How will you communicate that it’s time to merge?
 
 We all must agree during stand up or majority if someone is not here. 
+
+
+# Project Prep 2
+
+## Idea One
+
+Movie Review website
+
+The idea would be using the movie api to get the movie data. Then we would create a movie review object and store that into our mondoDB database. The Schema would include The title, a brief description that we would get from the api. Then the user would be able to leave a review and some notes about the movie and what they liked about it.
+
+The problem it solves is remembering if a movie is worth reccommending to a friend, and get more great movies to be seen. We are going to use AUTH0 in order to keep everyones reviews seperate and only show the reviews from the user who is logged in
+
+The MVP would be a website where we can leave reviews in a star rating and description. The site needs to be able to log in, show the previous movies that were reviewed and allow new movies to be reviewed.
+
+## Idea two
+
+Playlist Making Website
+
+The idea would be using the spotify api in order to make playlists to suit whatever mood youre in. 
+
+The problem it would solve is shuffling music and not having songs that fit the vibes. This would be done by logging in and then showing the playlist that corrispond to the user. This will also let the user, add , edit and remove playlists as they see fit.
+
+The MVP would be a website that finds songs using the API and stores the playlists into an array of some kind in order to store them and view them.
